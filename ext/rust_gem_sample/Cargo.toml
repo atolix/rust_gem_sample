@@ -11,3 +11,6 @@ crate-type = ["cdylib"]
 
 [dependencies]
 magnus = { version = "0.4" }
+rb-allocator = "0.9.6"
+rb-sys = "0.9.79"
+uuid = { version = "1.4.0", features = ["v4"] }
